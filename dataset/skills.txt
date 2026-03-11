@@ -1,0 +1,16 @@
+python
+java
+c++
+machine learning
+deep learning
+data analysis
+sql
+power bi
+tableau
+nlp
+tensorflow
+pandas
+numpy
+excel
+data visualization
+statistics

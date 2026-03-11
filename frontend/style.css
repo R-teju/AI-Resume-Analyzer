@@ -1,0 +1,183 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Segoe UI;
+}
+
+/* BODY BACKGROUND */
+
+body{
+margin:0;
+font-family:Segoe UI;
+
+background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
+url("images/bg.jpg");
+
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+background-attachment:fixed;
+}
+
+/* HERO SECTION */
+
+.hero{
+height:100vh;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+color:white;
+}
+
+/* HERO CONTENT */
+
+.hero-content{
+display:flex;
+flex-direction:column;
+align-items:center;
+justify-content:center;
+text-align:center;
+background:rgba(0,0,0,0.5);
+padding:40px;
+border-radius:15px;
+}
+
+/* TITLE */
+
+.hero h1{
+font-family:'Playfair Display', serif;
+font-size:64px;
+letter-spacing:3px;
+text-transform:uppercase;
+color:#ddd;
+margin-bottom:20px;
+}
+
+/* SUBTEXT */
+
+.hero p{
+font-size:20px;
+margin-bottom:30px;
+color:aliceblue;
+}
+
+/* START BUTTON */
+
+.scroll-btn{
+padding:12px 25px;
+background:#00c853;
+color:white;
+text-decoration:none;
+border-radius:25px;
+font-size:16px;
+transition:0.3s;
+}
+
+.scroll-btn:hover{
+background:#00e676;
+transform:scale(1.08);
+box-shadow:0 0 15px #00e676;
+}
+
+/* ANALYZER SECTION */
+
+.analyzer{
+padding:80px;
+background:rgba(255,255,255,0.1);
+backdrop-filter:blur(10px);
+text-align:center;
+border-radius:20px;
+width:70%;
+margin:80px auto;
+color:white;
+}
+
+/* ANALYZER TITLE */
+
+.analyzer h2{
+margin-bottom:30px;
+font-size:30px;
+color:white;
+}
+
+/* FILE INPUT */
+
+input[type=file]{
+margin-bottom:20px;
+color:white;
+}
+
+/* TEXT AREA */
+
+textarea{
+width:420px;
+height:150px;
+padding:12px;
+border-radius:10px;
+border:none;
+outline:none;
+margin-bottom:20px;
+}
+
+/* ANALYZE BUTTON */
+
+button{
+padding:12px 30px;
+background:linear-gradient(45deg,#00c853,#64dd17);
+border:none;
+border-radius:25px;
+color:white;
+font-size:16px;
+cursor:pointer;
+transition:0.3s;
+}
+
+button:hover{
+transform:scale(1.05);
+}
+
+/* PROGRESS BAR */
+
+.progress-bar{
+width:420px;
+height:20px;
+background:#ddd;
+margin:25px auto;
+border-radius:20px;
+overflow:hidden;
+}
+
+#progress{
+height:100%;
+width:0%;
+background:linear-gradient(90deg,#00e676,#00c853);
+transition:1s;
+}
+
+/* OUTPUT SECTION */
+
+#output{
+margin-top:40px;
+width:520px;
+margin-left:auto;
+margin-right:auto;
+}
+
+/* RESULT CARDS */
+
+.card{
+background:white;
+padding:20px;
+margin-top:15px;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.2);
+text-align:left;
+color:black;
+}
+
+.card h3{
+color:#1f4e79;
+margin-bottom:10px;
+}

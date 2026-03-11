@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+
+<title>AI Resume Analyzer</title>
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<!-- HERO SECTION -->
+
+<section class="hero">
+
+<div class="hero-content">
+
+<h1>AI Resume Analyzer</h1>
+
+<p>Analyze your resume using AI and check your ATS compatibility</p>
+
+<a href="#analyzer" class="scroll-btn">Start Analyzing</a>
+
+</div>
+
+</section>
+
+
+<!-- ANALYZER SECTION -->
+
+<section id="analyzer" class="analyzer">
+
+<h2>Upload Resume</h2>
+
+<input type="file" id="resume">
+
+<textarea id="jobdesc" placeholder="Paste Job Description"></textarea>
+
+<button type='button' onclick="analyzeResume()">Analyze Resume</button>
+
+<div class="progress-bar">
+<div id="progress"></div>
+</div>
+
+<div id="output"></div>
+
+</section>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
