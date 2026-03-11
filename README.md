@@ -31,3 +31,7 @@ Machine Learning:
 3. System extracts resume text
 4. AI compares resume and job description
 5. Generates ATS score and suggestions
+
+## Project Preview
+![preview1](preview1.png)
+![preview2](preview2.png)
